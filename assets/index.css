@@ -117,10 +117,13 @@ most signatures will fit on a single lin */
     background: none;
     font-family: var(--code-font);
     padding: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: none;
 }
 
 .attribute-signature {
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .attribute-description {
